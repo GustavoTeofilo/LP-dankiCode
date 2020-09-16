@@ -3,6 +3,7 @@
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
+	font-family: 'Open Sans'
 }
 
 html,body{
@@ -37,16 +38,85 @@ html,body{
 	background-position: center;
 }
 
-.form{
-
-	width: 400px;
-	height: 100%;
-	background-color: white;
-	float: right;
-}
-
-
 .container-banner > .center {
 
 	height: 100%;
 }
+
+.form{
+
+	width: 400px;
+	height: calc(100% + 30px);
+	background-color: white;
+	position: relative;
+	top: -15px;
+	border: 8px solid #ccc;
+	float: right;
+	padding: 10px;
+}
+
+.form h2{
+
+	font-weight: normal;
+	color: #999999;
+	font-size: 20px;
+}
+
+.input-container{
+
+	margin-top: 20px;
+}
+
+.input-container span, .form p{
+
+	display: inline-block;
+	width: 100%;
+	font-size: 17px;
+	color: #bbbbbb;
+
+}
+
+.warning {
+
+	margin: 20px 0;
+}
+
+.input-container input[type="text"]{
+
+	width: 344px;
+	height: 55px;
+	border:1px solid #ccc;
+	margin-top:8px;
+}
+
+.form input[type=submit]{
+	width: 200px;
+	height: 50px;
+	background-color: #363a6d;
+	color: white;
+	font-size: 20px;
+	font-weight: normal;
+	display: inline-block;
+	cursor: pointer;
+	border-bottom: 5px solid #4a5097;
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+}
+
+.form .input-submit-container{
+
+	text-align: center;
+}
+
+.form input[type=submit]:hover{
+
+	background-color: #323665;
+}
+
+
+
+
+
+
+
