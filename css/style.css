@@ -13,7 +13,7 @@ html,body{
 
 .center{
 
-	width: 1280px;
+	width: 1200px;
 	margin: 0 auto;
 }
 
@@ -50,7 +50,10 @@ html,body{
 	background-color: white;
 	position: relative;
 	top: -15px;
-	border: 8px solid #ccc;
+	border-width: 12px;
+	border-color: rgba(120,120,120,0.5);
+	border-style: solid;
+	background-clip: padding-box;
 	float: right;
 	padding: 10px;
 }
@@ -114,6 +117,27 @@ html,body{
 	background-color: #323665;
 }
 
+.container-list{
+
+	float: left;
+	width: 619px;
+	height: 270px;
+	background-color:rgba(33,35,67,0.7);
+	margin-top: 40px;
+	padding:30px;
+}
+
+.container-list ul{
+
+	list-style-position: inside;
+
+}
+
+.container-list ul li {
+
+	margin-top: 18px;
+	color: white;
+}
 
 
 
