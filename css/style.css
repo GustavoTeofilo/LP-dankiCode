@@ -139,6 +139,42 @@ html,body{
 	color: white;
 }
 
+.container-2{
+
+	padding: 70px;
+	background-color:#dddddd;
+	text-align: center;
+}
+
+.container-2 h2{
+
+	font-weight: normal;
+}
+
+.container-2 p{
+
+
+width: 698px;
+margin: 15px;
+display: inline-block;
+text-align: justify;
+}
+
+.arrow{
+
+	background-image: url('../img/arrow.png');
+	width: 40px;
+	height: 40px;
+	background-size: 100% 100%;
+	position: relative;
+	left: 50%;
+	margin-left: -20px;
+	top: -20px;	
+
+}
+
+
+
 
 
 
